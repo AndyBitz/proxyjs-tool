@@ -1,0 +1,20 @@
+{
+  "name": "proxyjs-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "proxyjs": "index.js"
+  },
+  "keywords": ["proxy", "cli", "tool"],
+  "author": "Andy",
+  "license": "MIT",
+  "dependencies": {
+    "args": "^3.0.2",
+    "http-proxy": "^1.16.2"
+  }
+}
