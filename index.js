@@ -1,6 +1,7 @@
+#!/usr/bin/env node
+
 // native
 const http = require('http');
-#!/usr/bin/env node
 
 // packages
 const args = require('args')

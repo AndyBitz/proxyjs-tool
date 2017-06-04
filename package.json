@@ -1,11 +1,12 @@
 {
   "name": "proxyjs-tool",
   "version": "1.0.0",
-  "description": "",
+  "description": "proxyjs is a simple cli tool that proxies traffic",
   "main": "index.js",
+  "repository": "https://github.com/AndyBitz/proxyjs-tool",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js help"
   },
   "bin": {
     "proxyjs": "index.js"
