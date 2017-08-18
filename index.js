@@ -26,6 +26,6 @@ const options = {
 const proxy = httpProxy.createProxyServer(options)
 
 proxy.listen({ port: flags.port }, () => {
-  console.log(`local server runs on ${flags.port}`)
+  console.log(`local server listens on ${flags.port}`)
   console.log(`and proxies the traffic to ${flags.target}`)  
 })
