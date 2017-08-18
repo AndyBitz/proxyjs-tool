@@ -1,6 +1,6 @@
 {
   "name": "proxyjs-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "proxyjs is a simple cli tool that proxies traffic",
   "main": "index.js",
   "repository": "https://github.com/AndyBitz/proxyjs-tool",
